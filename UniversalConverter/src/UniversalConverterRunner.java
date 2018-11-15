@@ -63,5 +63,10 @@ public class UniversalConverterRunner
 		{
 			System.out.println("test");
 		}
+		
+		public static void convertCurrency()
+		{
+			
+		}
 
 	}
