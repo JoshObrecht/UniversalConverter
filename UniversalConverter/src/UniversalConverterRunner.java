@@ -9,9 +9,9 @@ public class UniversalConverterRunner
 
 		public static void main(String[] args)
 			{
-			displayJFrame();
-				//WASSUUUUUUPPPP MY BROSKIIIIIIIIII
-			//idehuioasebhdfb
+				
+				displayJFrame();
+		
 			}
 		public static void displayJFrame()
 		{
@@ -55,10 +55,14 @@ public class UniversalConverterRunner
 								break;
 							case 1:
 								System.out.println("yo");
+							case 2:
+							
 						}
 					}
-				});
+				}
+			);
 		}
+		
 		public static void convertTemp()
 		{
 			System.out.println("test");
