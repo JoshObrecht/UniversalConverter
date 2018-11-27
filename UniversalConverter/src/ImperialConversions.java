@@ -1,14 +1,11 @@
 import java.util.Scanner;
-
-public class ImperialConversions {
-
-	static double finalNumber = 0.0;
+ public class ImperialConversions {
+ 	static double finalNumber = 0.0;
 		
 		public static void main(String[] args) {
 			imperialConversion();
 		}
-
-		public static void imperialConversion()
+ 		public static void imperialConversion()
 		{
 			
 			System.out.println("What unit are you converting from? (1. inches, 2. feet, 3. yards or 4. miles)");
@@ -33,8 +30,7 @@ public class ImperialConversions {
 			System.out.println(finalNumber);
 			
 		}
-
-		
+ 		
 			public static void inches() 
 			{
 				System.out.println("What unit are you converting to? (1. feet, 2. yards or 3. miles)");
@@ -153,7 +149,4 @@ public class ImperialConversions {
 				}
 		
 			}	
-
-	}
-
-
+ 	}
