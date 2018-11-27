@@ -18,7 +18,8 @@ public class UniversalConverterRunner
 			}
 		public static void displayJFrame()
 		{
-			
+			try
+				{
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frame.setSize(300, 150);
 			frame.setLocation(430, 100);
@@ -61,9 +62,16 @@ public class UniversalConverterRunner
 						}
 					}
 				});
+				}
+			catch(Exception e)
+				{
+					System.out.println("bet");
+				}
 		}
 		public static void convertTemp()
 		{
+			try
+				{
 			frame.getContentPane().removeAll();
 			frame.repaint();
 			frame.getContentPane().setLayout(new FlowLayout());
@@ -110,6 +118,11 @@ public class UniversalConverterRunner
 			frame.pack();
 			frame.setSize(500, 150);
 			panel.setVisible(true);
+				}
+			catch(Exception e)
+				{
+					System.out.println("bet");
+				}
 		}
 
 	}
