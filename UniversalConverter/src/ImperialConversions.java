@@ -1,8 +1,11 @@
 import java.util.Scanner;
- public class ImperialConversions {
- 	static double finalNumber = 0.0;
+ 
+public class ImperialConversions {
+ 
+	 static double finalNumber = 0.0;
 		
-		public static void main(String[] args) {
+		public static void main(String[] args) 
+		{
 			imperialConversion();
 		}
  		public static void imperialConversion()
@@ -41,8 +44,6 @@ import java.util.Scanner;
 				Scanner userNumber = new Scanner (System.in);
 				int number = userNumber.nextInt();
 				
-				//double finalNumber = 0.0;
-				
 				switch (convertTo)
 				{
 				case 1:
@@ -71,8 +72,6 @@ import java.util.Scanner;
 				Scanner userNumber = new Scanner (System.in);
 				int number = userNumber.nextInt();
 				
-				//double finalNumber = 0.0;
-					
 				switch (convertTo)
 				{
 				case 1:
@@ -101,8 +100,6 @@ import java.util.Scanner;
 				Scanner userNumber = new Scanner (System.in);
 				int number = userNumber.nextInt();
 				
-				//double finalNumber = 0.0;
-					
 				switch (convertTo)
 				{
 				case 1:
@@ -129,8 +126,6 @@ import java.util.Scanner;
 				System.out.println("Please enter the number you want to convert");
 				Scanner userNumber = new Scanner (System.in);
 				int number = userNumber.nextInt();
-				
-				//double finalNumber = 0.0;
 					
 				switch (convertTo)
 				{
