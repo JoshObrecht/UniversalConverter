@@ -8,15 +8,17 @@ import javax.swing.*;
 public class UniversalConverterRunner
 	{
 
+		static JFrame frame = new JFrame("Universal Converter v.1");
 		public static void main(String[] args)
 			{
 				
 				displayJFrame();
+				
 		
 			}
 		public static void displayJFrame()
 		{
-			JFrame frame = new JFrame("Universal Converter v.1");
+			
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frame.setSize(300, 150);
 			frame.setLocation(430, 100);
@@ -49,10 +51,13 @@ public class UniversalConverterRunner
 				{
 					public void actionPerformed(ActionEvent e)
 					{
+						frame.getContentPane().removeAll();
+					    frame.repaint();
+						frame.getContentPane().setLayout(new FlowLayout());
 						switch(cb.getSelectedIndex())
 						{
 							case 0:
-								convertTemp();
+								TempConversions.convertTemp();
 								break;
 							case 1:
 								System.out.println("yo");
@@ -64,10 +69,6 @@ public class UniversalConverterRunner
 			);
 		}
 		
-		public static void convertTemp()
-		{
-			System.out.println("test");
-		}
 	
 		
 
