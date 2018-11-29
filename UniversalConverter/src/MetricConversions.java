@@ -6,9 +6,9 @@ public class MetricConversions {
 	
 	public static void main(String[] args) 
 	{
-		imperialConversion();
+		metricConversions();
 	}
-		public static void imperialConversion()
+		public static void metricConversions()
 	{
 		
 		System.out.println("What unit are you converting from? (1. Kilo 2. Hecto 3. Deka 4. Base 5. Deci 6. Centi 8. Mili)");
@@ -17,7 +17,6 @@ public class MetricConversions {
 		
 		switch (convertFrom)
 		{
-		
 		case 1: 
 			kilo();
 			break;
@@ -56,18 +55,18 @@ public class MetricConversions {
 		Scanner userNumber = new Scanner (System.in);
 		int number = userNumber.nextInt();
 		
-		int toBase;
-		toBase = number * 1000;
+		double toBase;
+		toBase = number * 1000.0;
 		
 		switch (convertTo)
 		{
 		case 1:
 			//base to hecto
-			endNumber = toBase / 100; 
+			endNumber = toBase / 100.0; 
 			break;
 		case 2:
 			//base to deka
-			endNumber = toBase / 10;
+			endNumber = toBase / 10.0;
 			break;
 		case 3:
 			//base to base
@@ -75,13 +74,13 @@ public class MetricConversions {
 			break;
 		case 4:
 			//base to deci
-			endNumber = toBase * 10;
+			endNumber = toBase * 10.0;
 		case 5:
 			//base to centi
-			endNumber = toBase * 100 ;
+			endNumber = toBase * 100.0 ;
 		case 6:
 			//base to mili
-			endNumber = toBase * 1000 ;
+			endNumber = toBase * 1000.0 ;
 		}
 	}
 	
@@ -95,18 +94,18 @@ public class MetricConversions {
 		Scanner userNumber = new Scanner (System.in);
 		int number = userNumber.nextInt();
 		
-		int toBase = 0;
-		toBase = number * 100;
+		double toBase = 0;
+		toBase = number * 100.0;
 		
 		switch (convertTo)
 		{
 		case 1:
 			//base to kilo
-			endNumber = toBase / 1000; 
+			endNumber = toBase / 1000.0; 
 			break;
-		case 2:
+		case 2: 
 			//base to deka
-			endNumber = toBase / 10;
+			endNumber = toBase / 10.0;
 			break;
 		case 3:
 			//base to base
@@ -114,13 +113,13 @@ public class MetricConversions {
 			break;
 		case 4:
 			//base to deci
-			endNumber = toBase * 10;
+			endNumber = toBase * 10.0;
 		case 5:
 			//base to centi
-			endNumber = toBase * 100 ;
+			endNumber = toBase * 100.0 ;
 		case 6:
 			//base to mili
-			endNumber = toBase * 1000 ;
+			endNumber = toBase * 1000.0 ;
 		}
 	}
 	
@@ -134,18 +133,19 @@ public class MetricConversions {
 		Scanner userNumber = new Scanner (System.in);
 		int number = userNumber.nextInt();
 		
-		int toBase = 0;
-		toBase = number * 10;
+		double toBase;
+		toBase = number * 10.0;
 		
 		switch (convertTo)
 		{
 		case 1:
 			//base to kilo
-			endNumber = toBase / 1000; 
+			endNumber = toBase / 1000.0; 
+			
 			break;
 		case 2:
 			//base to hecto
-			endNumber = toBase / 100;
+			endNumber = toBase / 100.0;
 			break;
 		case 3:
 			//base to base
@@ -153,13 +153,13 @@ public class MetricConversions {
 			break;
 		case 4:
 			//base to deci
-			endNumber = toBase * 10;
+			endNumber = toBase * 10.0;
 		case 5:
 			//base to centi
-			endNumber = toBase * 100 ;
+			endNumber = toBase * 100.0 ;
 		case 6:
 			//base to mili
-			endNumber = toBase * 1000 ;
+			endNumber = toBase * 1000.0 ;
 		}
 	}
 	
@@ -173,31 +173,31 @@ public class MetricConversions {
 		Scanner userNumber = new Scanner (System.in);
 		int number = userNumber.nextInt();
 		
-		int toBase = number;
+		double toBase = number;
 		
 		switch (convertTo)
 		{
 		case 1:
 			//base to kilo
-			endNumber = toBase / 1000; 
+			endNumber = toBase / 1000.0; 
 			break;
 		case 2:
 			//base to deka
-			endNumber = toBase / 10;
+			endNumber = toBase / 10.0;
 			break;
 		case 3:
 			//base to hecto
-			endNumber = toBase / 100;
+			endNumber = toBase / 100.0;
 			break;
 		case 4:
 			//base to deci
-			endNumber = toBase * 10;
+			endNumber = toBase * 10.0;
 		case 5:
 			//base to centi
-			endNumber = toBase * 100 ;
+			endNumber = toBase * 100.0 ;
 		case 6:
 			//base to mili
-			endNumber = toBase * 1000 ;
+			endNumber = toBase * 1000.0 ;
 		}	
 	}
 	
@@ -211,18 +211,18 @@ public class MetricConversions {
 		Scanner userNumber = new Scanner (System.in);
 		int number = userNumber.nextInt();
 		
-		int toBase = 0;
-		toBase = number / 10;
+		double toBase;
+		toBase = number / 10.0;
 		
 		switch (convertTo)
 		{
 		case 1:
 			//base to kilo
-			endNumber = toBase / 1000; 
+			endNumber = toBase / 1000.0; 
 			break;
 		case 2:
 			//base to hecto
-			endNumber = toBase / 100;
+			endNumber = toBase / 100.0;
 			break;
 		case 3:
 			//base to base
@@ -230,13 +230,13 @@ public class MetricConversions {
 			break;
 		case 4:
 			//base to deka
-			endNumber = toBase / 10;
+			endNumber = toBase / 10.0;
 		case 5:
 			//base to centi
-			endNumber = toBase * 100 ;
+			endNumber = toBase * 100.0 ;
 		case 6:
 			//base to mili
-			endNumber = toBase * 1000 ;
+			endNumber = toBase * 1000.0 ;
 		}
 	}
 	
@@ -250,32 +250,32 @@ public class MetricConversions {
 		Scanner userNumber = new Scanner (System.in);
 		int number = userNumber.nextInt();
 		
-		int toBase = 0;
-		toBase = number * 10;
+		double toBase;
+		toBase = number * 100.0;
 		
 		switch (convertTo)
 		{
 		case 1:
 			//base to kilo
-			endNumber = toBase / 1000; 
+			endNumber = toBase / 1000.0; 
 			break;
 		case 2:
 			//base to hecto
-			endNumber = toBase / 100;
+			endNumber = toBase / 100.0;
 			break;
 		case 3:
 			//base to deka
-			endNumber = toBase * 10;
+			endNumber = toBase / 10.0;
 			break;
 		case 4:
 			//base to base
 			endNumber = toBase;
 		case 5:
 			//base to deci
-			endNumber = toBase * 10;
+			endNumber = toBase * 10.0;
 		case 6:
 			//base to mili
-			endNumber = toBase * 1000 ;
+			endNumber = toBase * 1000.0 ;
 		}
 	}
 	
@@ -289,37 +289,34 @@ public class MetricConversions {
 		Scanner userNumber = new Scanner (System.in);
 		int number = userNumber.nextInt();
 		
-		int toBase = 0;
-		toBase = number * 100;
+		double toBase;
+		toBase = number * 1000.0;
 		
 		switch (convertTo)
 		{
 		case 1:
 			//base to kilo
-			endNumber = toBase / 1000; 
+			endNumber = toBase / 1000.0; 
 			break;
 		case 2:
 			//base to hecto
-			endNumber = toBase / 100;
+			endNumber = toBase / 100.0;
 			break;
 		case 3:
 			//base to deka
-			endNumber = toBase * 10;
+			endNumber = toBase / 10.0;
 			break;
 		case 4:
 			//base to base
 			endNumber = toBase;
 		case 5:
 			//base to deci
-			endNumber = toBase * 10;
+			endNumber = toBase * 10.0;
 		case 6:
 			//base to centi
-			endNumber = toBase * 100 ;
+			endNumber = toBase * 100.0 ;
 		}
 	}
-	
-	
-	
 	
 	
 	
