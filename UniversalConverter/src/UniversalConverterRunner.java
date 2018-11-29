@@ -32,7 +32,7 @@ public class UniversalConverterRunner
 			
 			panel.add(lbl);
 			
-			String [] choices = {"Temperature", "Metric", "Currency", "Time Zones"};
+			String [] choices = {"Temperature", "Metric", "Currency", "Time Zones", "Imperial"};
 			
 			final JComboBox<String> cb = new JComboBox<String>(choices);
 			
