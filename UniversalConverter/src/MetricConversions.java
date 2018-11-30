@@ -48,7 +48,7 @@ public class MetricConversions extends JPanel {
 			panel.add(cb2);
 			
 			tempFrame.getContentPane().add(panel);
-			tempFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			tempFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 			tempFrame.setSize(400, 400);
 			tempFrame.setVisible(true);
 			
