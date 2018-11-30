@@ -3,19 +3,23 @@ import javax.swing.*;
 
 public class MetricConversions extends JPanel {
 	
+	//Combo box items
 	static String [] units  = {"Kilo", "Hecto", "Deka", "Base", "Deci", "Centi", "Mili"};
-	static double endNumber = 0.0;
-	static JFrame tempFrame = new JFrame("Temp Conversions");
+	//JFrame
+	static JFrame tempFrame = new JFrame("Metric Conversions");
+	//Combo boxes
 	static final JComboBox<String> cb2 = new JComboBox<String>(units);
 	static final JComboBox<String> cb1 = new JComboBox<String>(units);
+	//User Input taken from text field
 	static String userValue;
+	//Base value to be converted to
 	static double toBase;
+	//Text field for user input
 	static JTextField f1= new JTextField("Value 1", 10);
+	//JPanel 
 	static JPanel panel = new JPanel();
 		public static void metricConversions()
 	{
-			
-			;
 			panel.setLayout(null);
 			
 			JLabel lbl = new JLabel("Type in your current value.");
