@@ -4,10 +4,6 @@ public class MetricConversions {
 	
 	static double endNumber = 0.0;
 	
-	public static void main(String[] args) 
-	{
-		metricConversions();
-	}
 		public static void metricConversions()
 	{
 		

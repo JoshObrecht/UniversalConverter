@@ -4,10 +4,6 @@ public class ImperialConversions {
  
 	 static double finalNumber = 0.0;
 		
-		public static void main(String[] args) 
-		{
-			imperialConversion();
-		}
  		public static void imperialConversion()
 		{
 			
@@ -40,7 +36,7 @@ public class ImperialConversions {
 				Scanner userWant = new Scanner(System.in);
 				int convertTo = userWant.nextInt();
 				
-				System.out.println("Please enter the number you want to convert");
+				System.out.println("Please enter the number you want to convert.");
 				Scanner userNumber = new Scanner (System.in);
 				int number = userNumber.nextInt();
 				
@@ -68,7 +64,7 @@ public class ImperialConversions {
 				Scanner userWant = new Scanner(System.in);
 				int convertTo = userWant.nextInt();
 				
-				System.out.println("Please enter the number you want to convert");
+				System.out.println("Please enter the number you want to convert.");
 				Scanner userNumber = new Scanner (System.in);
 				int number = userNumber.nextInt();
 				
@@ -97,7 +93,7 @@ public class ImperialConversions {
 				Scanner userWant = new Scanner(System.in);
 				int convertTo = userWant.nextInt();
 				
-				System.out.println("Please enter the number you want to convert");
+				System.out.println("Please enter the number you want to convert.");
 				Scanner userNumber = new Scanner (System.in);
 				int number = userNumber.nextInt();
 				
@@ -124,7 +120,7 @@ public class ImperialConversions {
 				Scanner userWant = new Scanner(System.in);
 				int convertTo = userWant.nextInt();
 				
-				System.out.println("Please enter the number you want to convert");
+				System.out.println("Please enter the number you want to convert.");
 				Scanner userNumber = new Scanner (System.in);
 				int number = userNumber.nextInt();
 					
