@@ -7,17 +7,17 @@ import javax.swing.*;
 
 public class Currency
 	{
-		static double FINAL_PROTOCAL = 0.0;
+//		static double FINAL_PROTOCAL = 0.0;
 
 		//Combo box items
 		static String [] units  = {"US Dollar", "EU Euro", "Chinese Yuan", "Japanese Yen", "British Pound", "Mexican Peso"};
 		//JFrame
-		static JFrame tempFrame = new JFrame("Metric Conversions");
+		static JFrame tempFrame = new JFrame("Currency Conversions");
 		//Combo boxes
 		static final JComboBox<String> cb2 = new JComboBox<String>(units);
 		static final JComboBox<String> cb1 = new JComboBox<String>(units);
 		//Text field for user input
-		static JTextField f1= new JTextField("Value 1", 10);
+		static JTextField f1= new JTextField("Your Currency", 10);
 		//JPanel 
 		static JPanel panel = new JPanel();
 		//label that displays the conversion

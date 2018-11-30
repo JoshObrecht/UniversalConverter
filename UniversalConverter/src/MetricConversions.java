@@ -15,7 +15,7 @@ public class MetricConversions extends JPanel {
 	//Base value to be converted to
 	static double toBase;
 	//Text field for user input
-	static JTextField f1= new JTextField("Value 1", 10);
+	static JTextField f1= new JTextField("Your Value", 10);
 	//JPanel 
 	static JPanel panel = new JPanel();
 		public static void metricConversions()

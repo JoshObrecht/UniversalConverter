@@ -66,7 +66,7 @@ public class UniversalConverterRunner
 								Currency.converterStart();
 								break;
 							case 3: 
-								TimeZones.convertTimeZones();
+								TimeZones.takeInput();
 								break;
 							case 4:
 								ImperialConversions.imperialConversion();
