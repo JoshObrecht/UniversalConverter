@@ -15,7 +15,7 @@ public class TimeZones
 			//Combo box items
 			static String [] units  = {"Central Standard Time", "Mountain Standard Time", "Pacific Standard Time", "Alaska Standard Time", "Hawaii Standard Time"};
 			//JFrame
-			static JFrame tempFrame = new JFrame("Currency Conversions");
+			static JFrame tempFrame = new JFrame("Time Zone Conversions");
 			//Combo boxes
 			static final JComboBox<String> cb2 = new JComboBox<String>(units);
 			static final JComboBox<String> cb1 = new JComboBox<String>(units);
@@ -57,7 +57,7 @@ panel.setLayout(null);
 			panel.add(btn);
 			
 			tempFrame.getContentPane().add(panel);
-			tempFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			tempFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 			tempFrame.setSize(400, 400);
 			tempFrame.setVisible(true);
 			
