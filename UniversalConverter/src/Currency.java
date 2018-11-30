@@ -4,10 +4,7 @@ public class Currency
 	{
 		static double FINAL_PROTOCAL = 0.0;
 		
-		public static void main(String[] args)
-		{
-			converterStart();
-		}
+
 //		public static void convert$()
 //			{
 //				//US
@@ -31,7 +28,7 @@ public class Currency
 				
 				
 //			}
-		private static void converterStart()
+		public static void converterStart()
 			{
 				System.out.println("What Currency are you looking to convert?");
 				System.out.println("1. US Dollar 2. EU Euro 3. Chinese Yuan 4 Japanese Yen 5. British Pound 6. Mexican Peso");

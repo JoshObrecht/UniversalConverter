@@ -60,8 +60,17 @@ public class UniversalConverterRunner
 								TempConversions.convertTemp();
 								break;
 							case 1:
-								System.out.println("yo");
+								MetricConversions.metricConversions();
+								break;
 							case 2:
+								Currency.converterStart();
+								break;
+							case 3: 
+								TimeZones.convertTimeZones();
+								break;
+							case 4:
+								ImperialConversions.imperialConversion();
+								break;
 							
 						}
 					}
