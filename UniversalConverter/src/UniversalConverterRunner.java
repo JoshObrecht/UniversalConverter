@@ -51,9 +51,9 @@ public class UniversalConverterRunner
 				{
 					public void actionPerformed(ActionEvent e)
 					{
-						frame.getContentPane().removeAll();
-					    frame.repaint();
-						frame.getContentPane().setLayout(new FlowLayout());
+//						frame.getContentPane().removeAll();
+//					    frame.repaint();
+//						frame.getContentPane().setLayout(new FlowLayout());
 						switch(cb.getSelectedIndex())
 						{
 							case 0:
