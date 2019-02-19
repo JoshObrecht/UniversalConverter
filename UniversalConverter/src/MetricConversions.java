@@ -1,6 +1,7 @@
 import java.awt.event.*;
 import javax.swing.*;
 
+@SuppressWarnings("serial")
 public class MetricConversions extends JPanel {
 	
 	//Combo box items

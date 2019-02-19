@@ -1,8 +1,7 @@
-import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-
+@SuppressWarnings("serial")
 public class TempConversions extends JPanel
 	{
 	//Combo box items
@@ -46,9 +45,6 @@ public class TempConversions extends JPanel
 					JButton btn = new JButton("CONVERT");
 					btn.setBounds(140, 220, 100, 40);
 					panel.add(btn);
-					
-					
-					
 					
 					tempFrame.getContentPane().add(panel);
 					tempFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);

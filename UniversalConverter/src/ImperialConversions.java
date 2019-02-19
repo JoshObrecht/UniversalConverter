@@ -1,7 +1,5 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Scanner;
-
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -9,14 +7,15 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
  
-public class ImperialConversions {
+@SuppressWarnings("serial")
+public class ImperialConversions extends JPanel{
  
 //	 static double finalNumber = 0.0;
 	 
 	//Combo box items
 			static String [] units  = {"Inches", "Feet", "Yards", "Miles"};
 			//JFrame
-			static JFrame tempFrame = new JFrame("IMperial Conversions");
+			static JFrame tempFrame = new JFrame("Imperial Conversions");
 			//Combo boxes
 			static final JComboBox<String> cb2 = new JComboBox<String>(units);
 			static final JComboBox<String> cb1 = new JComboBox<String>(units);
@@ -31,7 +30,7 @@ public class ImperialConversions {
 		
  		public static void imperialConversion()
 		{
-panel.setLayout(null);
+			panel.setLayout(null);
 			
 			JLabel lbl = new JLabel("Type in your current unit.");
 			lbl.setBounds(100, 5, 200, 20);

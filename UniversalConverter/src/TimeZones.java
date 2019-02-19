@@ -1,13 +1,6 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Scanner;
-
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
+import javax.swing.*;
 
 public class TimeZones
 	{
@@ -30,7 +23,7 @@ public class TimeZones
 	
 		public static void takeInput()
 		{
-panel.setLayout(null);
+			panel.setLayout(null);
 			
 			JLabel lbl = new JLabel("Type in your current time.");
 			lbl.setBounds(115, 5, 200, 20);
